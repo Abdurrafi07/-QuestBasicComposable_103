@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun BasicLayout(modifier: Modifier){
+fun BasicLayout(modifier: Modifier = Modifier){
     Column (horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
@@ -44,6 +44,6 @@ fun BasicLayout(modifier: Modifier){
 @Composable
 fun GreetingPreview() {
     Muzaka2ProjectTheme {
-        Greeting("Android")
+        BasicLayout()
     }
 }
