@@ -20,10 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Muzaka2ProjectTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    BasicLayout(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
