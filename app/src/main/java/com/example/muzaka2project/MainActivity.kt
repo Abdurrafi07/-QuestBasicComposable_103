@@ -49,6 +49,8 @@ fun BasicLayout(modifier: Modifier = Modifier){
         Image(painter = painterResource(id = R.drawable.logo), contentDescription = null, modifier = Modifier.padding(top = 10.dp).size(290.dp))
         Text(text = "Nama", style = TextStyle(fontSize = 15.sp))
         Text(text = "Abdurrafi Nur Fakhruddin", style = TextStyle(fontSize = 15.sp, color = Color.Red))
+        Text(text = "20220140103", style = TextStyle(fontSize = 25.sp))
+        Image(painter = painterResource(id = R.drawable.foto), contentDescription = null, modifier = Modifier.size(290.dp))
     }
 }
 
