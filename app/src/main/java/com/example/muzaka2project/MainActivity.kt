@@ -51,7 +51,7 @@ fun BasicLayout(modifier: Modifier = Modifier){
         Text(text = "Nama", style = TextStyle(fontSize = 20.sp), modifier = Modifier.padding(top = 20.dp))
         Text(text = "Abdurrafi Nur Fakhruddin", style = TextStyle(fontSize = 20.sp, color = Color.Red), modifier = Modifier.padding(5.dp))
         Text(text = "20220140103", style = TextStyle(fontSize = 30.sp), modifier = Modifier.padding(5.dp))
-        Image(painter = painterResource(id = R.drawable.foto), contentDescription = null, modifier = Modifier.size(290.dp))
+        Image(painter = painterResource(id = R.drawable.foto), contentDescription = null, modifier = Modifier.size(330.dp))
     }
 }
 
