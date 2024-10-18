@@ -40,6 +40,8 @@ fun BasicLayout(modifier: Modifier = Modifier){
         modifier = Modifier.fillMaxSize()
     ){
         Text(text = "Login", style = TextStyle(fontSize = 30.sp, fontWeight = FontWeight.Bold))
+        Text(text = "Ini adalah halaman login", style = TextStyle(fontSize = 15.sp))
+
     }
 }
 
